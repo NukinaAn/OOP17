@@ -11,13 +11,6 @@ public class App {
 	System.out.println();
 	System.out.println();
         
-        List<B> disk1 = new ArrayList<>();
-		disk1.add(new B()
-				.setname("Весняний")
-				.setComponent("Студент", "pop")
-				.setComponent(new Soft("Часник", 1))
-				);
-		System.out.println(salad2);
     B disk2 = new B("2 ", new A("Исповедь", "chanson"), new A("Купола", "chanson"), new A("Понты", "rap"), new A("Лондон", "rap") );
 	System.out.println( disk2);
 	System.out.println();
